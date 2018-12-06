@@ -76,7 +76,7 @@ public:
         this->height = newHeight;
     }
 
-    int fixHeight() {
+    void fixHeight() {
         int left, right;
         if (!this->getLeftSonPtr()) {
             left = -1;
